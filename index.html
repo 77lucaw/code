@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>My Photo Gallery</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1 id="title">Custom Ornaments</h1>
-  <p id="message">This is my first interactive website!</p>
 
-<a href="page2.html" class="btn">Go to About Page</a>
+  <div class="gallery">
+    <a href="#img1"><img src="images/photo1.jpg" alt="Photo 1"></a>
+    <a href="#img2"><img src="images/photo2.jpg" alt="Photo 2"></a>
+    <a href="#img3"><img src="images/photo3.jpg" alt="Photo 3"></a>
+    <a href="#img4"><img src="images/photo4.jpg" alt="Photo 4"></a>
+    <a href="#img5"><img src="images/photo5.jpg" alt="Photo 5"></a>
+    <a href="#img6"><img src="images/photo6.jpg" alt="Photo 6"></a>
+  </div>
 
-  <button onclick="changeMessage()">Click Me</button>
+  <!-- Lightbox images -->
+  <div class="lightbox" id="img1">
+    <a href="#"><img src="images/photo1.jpg" alt=""></a>
+  </div>
+  <div class="lightbox" id="img2">
+    <a href="#"><img src="images/photo2.jpg" alt=""></a>
+  </div>
+  <div class="lightbox" id="img3">
+    <a href="#"><img src="images/photo3.jpg" alt=""></a>
+  </div>
+  <div class="lightbox" id="img4">
+    <a href="#"><img src="images/photo4.jpg" alt=""></a>
+  </div>
+  <div class="lightbox" id="img5">
+    <a href="#"><img src="images/photo5.jpg" alt=""></a>
+  </div>
+  <div class="lightbox" id="img6">
+    <a href="#"><img src="images/photo6.jpg" alt=""></a>
+  </div>
 
-  <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
