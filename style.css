@@ -1,5 +1,7 @@
+/* #1d351d, #325632, #8b181b, #6f0f11, #e6be9a */
+
 body {
-  background-color: #1a7d01; 
+  background-color: #325632; 
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
@@ -7,7 +9,7 @@ body {
 }
 
 h1 {
-  color: #b50505;  
+  color: #6f0f11;  
   margin-top: 50px;
 }
 
@@ -17,7 +19,7 @@ p {
 }
 
 button {
-  background: #ff0000; 
+  background: #6f0f11; 
   color: white;
   padding: 12px 24px;
   border: none;
